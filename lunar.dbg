@@ -1,0 +1,1522 @@
+---> int main(int, char**) /media/Infinity/dev/BasicGames/b2c/b2c.cpp[2104]
+    Opened input file
+    Opened vars file
+    Parsing ...
+    Processing line 1!
+    (LEX)TK_Integer=100 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"BASIC LIBRARY--'LUNAR'--18-OCT-73"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="BASIC LIBRARY--'LUNAR'--18-OCT-73"
+    Processing line 2!
+    (LEX)TK_Integer=110 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 3!
+    (LEX)TK_Integer=120 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '" THIS PROGRAM IS DESIGNED TO SIMULATE THE LANDING OF"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=" THIS PROGRAM IS DESIGNED TO SIMULATE THE LANDING OF"
+    Processing line 4!
+    (LEX)TK_Integer=130 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"   A LUNAR EXCURSION MODULE.  IF YOU KNOW HOW IT WORKS,"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="   A LUNAR EXCURSION MODULE.  IF YOU KNOW HOW IT WORKS,"
+    Processing line 5!
+    (LEX)TK_Integer=140 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    TYPE IN '1' ,IF NOT, TYPE IN '0'."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    TYPE IN '1' ,IF NOT, TYPE IN '0'."
+    Processing line 6!
+    (LEX)TK_Integer=150 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    Processing line 7!
+    (LEX)TK_Integer=160 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=320 YYSTATE=3
+    Processing line 8!
+    (LEX)TK_Integer=170 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=180 YYSTATE=3
+    Processing line 9!
+    (LEX)TK_Integer=180 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 10!
+    (LEX)TK_Integer=190 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"  YOU ARE TRAVELING IN THE LUNAR ATMOSPHERE AT AN "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="  YOU ARE TRAVELING IN THE LUNAR ATMOSPHERE AT AN "
+    Processing line 11!
+    (LEX)TK_Integer=200 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"   ALTITUDE OF 40,000 FEET, AND DESCENDING AT A RATE OF"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="   ALTITUDE OF 40,000 FEET, AND DESCENDING AT A RATE OF"
+    Processing line 12!
+    (LEX)TK_Integer=210 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"   8,000 FEET PER SECOND.  YOU HAVE ACCESS TO 20 "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="   8,000 FEET PER SECOND.  YOU HAVE ACCESS TO 20 "
+    Processing line 13!
+    (LEX)TK_Integer=220 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    RETROROCKETS -- 1 TO 10 AND -1 TO -10."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    RETROROCKETS -- 1 TO 10 AND -1 TO -10."
+    Processing line 14!
+    (LEX)TK_Integer=230 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    A POSITIVE NUMBER SLOWS DOWN YOUR DESCENT, AND A "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    A POSITIVE NUMBER SLOWS DOWN YOUR DESCENT, AND A "
+    Processing line 15!
+    (LEX)TK_Integer=240 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    NEGATIVE NUMBER INCREASES YOUR DESCENT. THE"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    NEGATIVE NUMBER INCREASES YOUR DESCENT. THE"
+    Processing line 16!
+    (LEX)TK_Integer=250 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    NEGATIVE FIRINGS ARE PARTICULARLY USEFUL WHEN"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    NEGATIVE FIRINGS ARE PARTICULARLY USEFUL WHEN"
+    Processing line 17!
+    (LEX)TK_Integer=260 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    YOU HAVE SLOWED DOWN  TOO MUCH, AND YOU"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    YOU HAVE SLOWED DOWN  TOO MUCH, AND YOU"
+    Processing line 18!
+    (LEX)TK_Integer=270 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    FIND YOUR HEIGHT INCREASING, INSTEAD OF DECREASING."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    FIND YOUR HEIGHT INCREASING, INSTEAD OF DECREASING."
+    Processing line 19!
+    (LEX)TK_Integer=280 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    YOU WILL LAND SAFELY IF YOUR FINAL VELOCITY IS"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    YOU WILL LAND SAFELY IF YOUR FINAL VELOCITY IS"
+    Processing line 20!
+    (LEX)TK_Integer=290 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"     LESS THAN 20 FEET PER SECOND."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="     LESS THAN 20 FEET PER SECOND."
+    Processing line 21!
+    (LEX)TK_Integer=300 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"   AN ASTERISK (*) WILL GIVE YOUR RELATIVE POSITION"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="   AN ASTERISK (*) WILL GIVE YOUR RELATIVE POSITION"
+    Processing line 22!
+    (LEX)TK_Integer=310 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    TO THE MOON AFTER EACH RETRO FIRE. YOU MAY NOW BEGIN..."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    TO THE MOON AFTER EACH RETRO FIRE. YOU MAY NOW BEGIN..."
+    Processing line 23!
+    (LEX)TK_Integer=320 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 24!
+    (LEX)TK_Integer=330 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"PLEASE TYPE IN YOUR FIRST NAME..."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="PLEASE TYPE IN YOUR FIRST NAME..."
+    Processing line 25!
+    (LEX)TK_Integer=340 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=T$
+    (normal)basiclval.stype='T$'
+    Processing line 26!
+    (LEX)TK_Integer=350 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 27!
+    (LEX)TK_Integer=360 YYSTATE=0
+    Next State=PUCMD
+    (LEX)NOTYPE<CMD>(.)=(1)0x58':'
+    (LEX)<PUCMD>TK_UQString='             ##.##             #####             #####          ####'
+    Processing line 28!
+    (LEX)TK_Integer=370 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"              TIME            HEIGHT            VELOCITY        FUEL"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="              TIME            HEIGHT            VELOCITY        FUEL"
+    Processing line 29!
+    (LEX)TK_Integer=380 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"              ----            ------            --------        ----"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="              ----            ------            --------        ----"
+    Processing line 30!
+    (LEX)TK_Integer=390 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 31!
+    (LEX)TK_Integer=400 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"MOON"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="MOON"
+    Got some space characters in a print line.
+        printfield = 2
+        lc         = 'T'
+        yytext     = ' '
+        LastToken  = '304'
+    (LEX)NOTYPE(PrintStmt_1)=';' lc=
+    (LEX)TK_Tab<PrintStmt>='TAB'
+        printfield = 3
+        yytext     = 'TAB'
+        LastToken  = '59'
+        printfield = 5
+        yytext     = '('
+        LastToken  = '318'
+    (LEX)NOTYPE<PrintStmt:(>='('
+    (LEX)TK_Integer(PrintStmt)=45
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x41')'
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+        printfield = 7
+        yytext     = '"*"'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)="*"
+    Processing line 32!
+    (LEX)TK_Integer=410 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=H
+    (normal)basiclval.stype='H'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=40000 YYSTATE=3
+    Processing line 33!
+    (LEX)TK_Integer=420 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V
+    (normal)basiclval.stype='V'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=8000 YYSTATE=3
+    Processing line 34!
+    (LEX)TK_Integer=430 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V1
+    (normal)basiclval.stype='V1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=8000 YYSTATE=3
+    Processing line 35!
+    (LEX)TK_Integer=440 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=RND
+    (normal)basiclval.stype='RND'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 36!
+    (LEX)TK_Integer=450 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=INT
+    (normal)basiclval.stype='INT'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    (LEX)TK_Integer=15 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 37!
+    (LEX)TK_Integer=460 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=F
+    (normal)basiclval.stype='F'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=9000 YYSTATE=3
+    Processing line 38!
+    (LEX)TK_Integer=480 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=N
+    (normal)basiclval.stype='N'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Float=0.00
+    Processing line 39!
+    (LEX)TK_Integer=490 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=B
+    (normal)basiclval.stype='B'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=40 YYSTATE=3
+    Processing line 40!
+    (LEX)TK_Integer=500 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=610 YYSTATE=3
+    Processing line 41!
+    (LEX)TK_Integer=510 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=B
+    (normal)basiclval.stype='B'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    Processing line 42!
+    (LEX)TK_Integer=520 YYSTATE=0
+    (LEX)TK_For='FOR'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X
+    (normal)basiclval.stype='X'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_To='TO'
+    (LEX)TK_Integer=100 YYSTATE=3
+    Processing line 43!
+    (LEX)TK_Integer=530 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V
+    (normal)basiclval.stype='V'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V
+    (normal)basiclval.stype='V'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=K
+    (normal)basiclval.stype='K'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x94'^'
+    (LEX)TK_Integer=3 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    (LEX)TK_Float=1.5
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=K
+    (normal)basiclval.stype='K'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    (LEX)TK_Integer=15 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=10 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=H
+    (normal)basiclval.stype='H'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x47'/'
+    (LEX)TK_Integer=10000 YYSTATE=3
+    Processing line 44!
+    (LEX)TK_Integer=540 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=F
+    (normal)basiclval.stype='F'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=F
+    (normal)basiclval.stype='F'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=ABS
+    (normal)basiclval.stype='ABS'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=K
+    (normal)basiclval.stype='K'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    (LEX)TK_Integer=93 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 45!
+    (LEX)TK_Integer=550 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=F
+    (normal)basiclval.stype='F'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    (LEX)TK_Integer=0 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=770 YYSTATE=3
+    Processing line 46!
+    (LEX)TK_Integer=560 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=H
+    (normal)basiclval.stype='H'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=H
+    (normal)basiclval.stype='H'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V
+    (normal)basiclval.stype='V'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V1
+    (normal)basiclval.stype='V1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x47'/'
+    (LEX)TK_Integer=2 YYSTATE=3
+    Processing line 47!
+    (LEX)TK_Integer=570 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=B
+    (normal)basiclval.stype='B'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=H
+    (normal)basiclval.stype='H'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x47'/'
+    (LEX)TK_Integer=1000 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=4 YYSTATE=3
+    Processing line 48!
+    (LEX)TK_Integer=580 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=H
+    (normal)basiclval.stype='H'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    (LEX)TK_Integer=0 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=800 YYSTATE=3
+    Processing line 49!
+    (LEX)TK_Integer=590 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V1
+    (normal)basiclval.stype='V1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V
+    (normal)basiclval.stype='V'
+    Processing line 50!
+    (LEX)TK_Integer=600 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"MOON"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="MOON"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Got some space characters in a print line.
+        printfield = 2
+        lc         = 'T'
+        yytext     = ' '
+        LastToken  = '59'
+    (LEX)TK_Tab<PrintStmt>='TAB'
+        printfield = 3
+        yytext     = 'TAB'
+        LastToken  = '59'
+        printfield = 5
+        yytext     = '('
+        LastToken  = '318'
+    (LEX)NOTYPE<PrintStmt:(>='('
+    (LEX)TK_Name(PrintStmt)=B
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x41')'
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+        printfield = 7
+        yytext     = '"*"'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)="*"
+    Processing line 51!
+    (LEX)TK_Integer=610 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = 'U'
+        yytext     = ' '
+        LastToken  = '303'
+    (LEX)TK_Using='USING'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '3'
+        yytext     = ' '
+        LastToken  = '323'
+    (LEX)TK_Integer(PrintStmt)=360
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x44','
+    (LEX)TK_Name(PrintStmt)=N
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x44','
+    (LEX)TK_Name(PrintStmt)=H
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x44','
+    (LEX)TK_Name(PrintStmt)=V
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x44','
+    (LEX)TK_Name(PrintStmt)=F
+    Processing line 52!
+    (LEX)TK_Integer=620 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"      FIRE"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="      FIRE"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 53!
+    (LEX)TK_Integer=630 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=650 YYSTATE=3
+    Processing line 54!
+    (LEX)TK_Integer=640 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"  RETROROCKET FIRE MUST BE BETWEEN 10 AND -10!"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="  RETROROCKET FIRE MUST BE BETWEEN 10 AND -10!"
+    Processing line 55!
+    (LEX)TK_Integer=650 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=K
+    (normal)basiclval.stype='K'
+    Processing line 56!
+    (LEX)TK_Integer=660 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=K
+    (normal)basiclval.stype='K'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=999 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=880 YYSTATE=3
+    Processing line 57!
+    (LEX)TK_Integer=670 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=ABS
+    (normal)basiclval.stype='ABS'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=K
+    (normal)basiclval.stype='K'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x62'>'
+    (LEX)TK_Integer=10 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=640 YYSTATE=3
+    Processing line 58!
+    (LEX)TK_Integer=680 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 59!
+    (LEX)TK_Integer=690 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=N
+    (normal)basiclval.stype='N'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=N
+    (normal)basiclval.stype='N'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Float=1.00
+    Processing line 60!
+    (LEX)TK_Integer=700 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X
+    (normal)basiclval.stype='X'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=2 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=730 YYSTATE=3
+    Processing line 61!
+    (LEX)TK_Integer=710 YYSTATE=0
+    (LEX)TK_Next='NEXT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X
+    (normal)basiclval.stype='X'
+    Processing line 62!
+    (LEX)TK_Integer=720 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=510 YYSTATE=3
+    Processing line 63!
+    (LEX)TK_Integer=730 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=2 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1140 YYSTATE=3
+    Processing line 64!
+    (LEX)TK_Integer=740 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=13 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1180 YYSTATE=3
+    Processing line 65!
+    (LEX)TK_Integer=750 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=4 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1340 YYSTATE=3
+    Processing line 66!
+    (LEX)TK_Integer=760 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=510 YYSTATE=3
+    Processing line 67!
+    (LEX)TK_Integer=770 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 68!
+    (LEX)TK_Integer=780 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"  YOU HAVE JUST RUN OUT OF FUEL "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="  YOU HAVE JUST RUN OUT OF FUEL "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=H
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+        printfield = 3
+        yytext     = '"FEET ABOVE THE SURFACE!!"'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)="FEET ABOVE THE SURFACE!!"
+    Processing line 69!
+    (LEX)TK_Integer=790 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1560 YYSTATE=3
+    Processing line 70!
+    (LEX)TK_Integer=800 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V
+    (normal)basiclval.stype='V'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    (LEX)TK_Integer=0 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=910 YYSTATE=3
+    Processing line 71!
+    (LEX)TK_Integer=810 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V
+    (normal)basiclval.stype='V'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    (LEX)TK_Integer=20 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=950 YYSTATE=3
+    Processing line 72!
+    (LEX)TK_Integer=820 YYSTATE=0
+    isym=21 name='if' sz=2 token=282
+    pb=1 yytext='IFV' token=282
+    pb=1 yytext='IF' token=282
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V
+    (normal)basiclval.stype='V'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    (LEX)TK_Integer=40 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1570 YYSTATE=3
+    Processing line 73!
+    (LEX)TK_Integer=830 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 74!
+    (LEX)TK_Integer=840 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '" YOU HAVE JUST CRASHED!! AT "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=" YOU HAVE JUST CRASHED!! AT "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=V
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+        printfield = 3
+        yytext     = '"FPS., GOOD-BYE, "'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)="FPS., GOOD-BYE, "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_SName(PrintStmt)=T$
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+        printfield = 5
+        yytext     = '"!!"'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)="!!"
+    Processing line 75!
+    (LEX)TK_Integer=850 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1560 YYSTATE=3
+    Processing line 76!
+    (LEX)TK_Integer=860 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=H
+    (normal)basiclval.stype='H'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    (LEX)TK_Integer=5 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=950 YYSTATE=3
+    Processing line 77!
+    (LEX)TK_Integer=870 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=510 YYSTATE=3
+    Processing line 78!
+    (LEX)TK_Integer=880 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"  YOU NOT ONLY LANDED, YOU WENT COMPLETELY THROUGH"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="  YOU NOT ONLY LANDED, YOU WENT COMPLETELY THROUGH"
+    Processing line 79!
+    (LEX)TK_Integer=890 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"  THE LUNAR SURFACE !!!!"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="  THE LUNAR SURFACE !!!!"
+    Processing line 80!
+    (LEX)TK_Integer=900 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=980 YYSTATE=3
+    Processing line 81!
+    (LEX)TK_Integer=910 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 82!
+    (LEX)TK_Integer=920 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '" CONGRATULATIONS !!! YOU HAVE JUST LANDED SAFELY AT 0.001 FEET"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=" CONGRATULATIONS !!! YOU HAVE JUST LANDED SAFELY AT 0.001 FEET"
+    Processing line 83!
+    (LEX)TK_Integer=930 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"  PER SECOND!!"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="  PER SECOND!!"
+    Processing line 84!
+    (LEX)TK_Integer=940 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=980 YYSTATE=3
+    Processing line 85!
+    (LEX)TK_Integer=950 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 86!
+    (LEX)TK_Integer=960 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '" CONGRATULATIONS !!! YOU HAVE JUST LANDED SAFELY"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=" CONGRATULATIONS !!! YOU HAVE JUST LANDED SAFELY"
+    Processing line 87!
+    (LEX)TK_Integer=970 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"  AT "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="  AT "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=V
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+        printfield = 3
+        yytext     = '" FEET PER SECOND!!"'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)=" FEET PER SECOND!!"
+    Processing line 88!
+    (LEX)TK_Integer=980 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"  HERE IS YOUR PILOT\S LICENSE..."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="  HERE IS YOUR PILOT\S LICENSE..."
+    Processing line 89!
+    (LEX)TK_Integer=990 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 90!
+    (LEX)TK_Integer=1000 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 91!
+    (LEX)TK_Integer=1010 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"**************************************************"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="**************************************************"
+    Processing line 92!
+    (LEX)TK_Integer=1020 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"*                                                *"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="*                                                *"
+    Processing line 93!
+    (LEX)TK_Integer=1030 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"*       "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="*       "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_SName(PrintStmt)=T$
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+        printfield = 3
+        yytext     = '"                                    * "'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)="                                    * "
+    Processing line 94!
+    (LEX)TK_Integer=1040 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=K
+    (normal)basiclval.stype='K'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=999 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1070 YYSTATE=3
+    Processing line 95!
+    (LEX)TK_Integer=1050 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"*                  HAS SUCCESSFULLY LANDED       *"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="*                  HAS SUCCESSFULLY LANDED       *"
+    Processing line 96!
+    (LEX)TK_Integer=1060 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1080 YYSTATE=3
+    Processing line 97!
+    (LEX)TK_Integer=1070 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"*           HAS SUCCESSFULLY LANDED(BY CHEATING) *"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="*           HAS SUCCESSFULLY LANDED(BY CHEATING) *"
+    Processing line 98!
+    (LEX)TK_Integer=1080 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"*     A SIMULATED MODULE ON THE MOON, AND IS     *"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="*     A SIMULATED MODULE ON THE MOON, AND IS     *"
+    Processing line 99!
+    (LEX)TK_Integer=1090 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"*     A CERTIFIED MOON BUGGY DRIVER.             *"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="*     A CERTIFIED MOON BUGGY DRIVER.             *"
+    Processing line 100!
+    (LEX)TK_Integer=1100 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"*                                                *"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="*                                                *"
+    Processing line 101!
+    (LEX)TK_Integer=1110 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"*                              DATALINE          *"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="*                              DATALINE          *"
+    Processing line 102!
+    (LEX)TK_Integer=1120 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"**************************************************"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="**************************************************"
+    Processing line 103!
+    (LEX)TK_Integer=1130 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1560 YYSTATE=3
+    Processing line 104!
+    (LEX)TK_Integer=1140 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '" SORRY,"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=" SORRY,"
+    (LEX)TK_NAME(PrintStmt)='T$'
+    (LEX)Change to NOTYPE=';'
+    (LEX)TK_SName(PrintStmt)=T$
+        printfield = 4
+        yytext     = '", BUT A HOSTILE STARSHIP FROM SATURN HAS JUST"'
+        LastToken  = '295'
+    (LEX)NOTYPE<PrintStmt:qs>=';'
+        printfield = 5
+        yytext     = '", BUT A HOSTILE STARSHIP FROM SATURN HAS JUST"'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)=", BUT A HOSTILE STARSHIP FROM SATURN HAS JUST"
+    Processing line 105!
+    (LEX)TK_Integer=1150 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"   INVADED DATALINE'S COMPUTER AND DESTROYED YOUR"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="   INVADED DATALINE'S COMPUTER AND DESTROYED YOUR"
+    Processing line 106!
+    (LEX)TK_Integer=1160 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"   LUNAR VEHICLE !!  START OVER AGAIN..."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="   LUNAR VEHICLE !!  START OVER AGAIN..."
+    Processing line 107!
+    (LEX)TK_Integer=1170 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1560 YYSTATE=3
+    Processing line 108!
+    (LEX)TK_Integer=1180 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 109!
+    (LEX)TK_Integer=1190 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '" ONE OF YOUR THREE FUEL TANKS JUST BURST INTO FLAME!!"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=" ONE OF YOUR THREE FUEL TANKS JUST BURST INTO FLAME!!"
+    Processing line 110!
+    (LEX)TK_Integer=1200 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"  TO AVOID AN EXPLOSION, TURN OFF ONE OF THE 3 TANKS."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="  TO AVOID AN EXPLOSION, TURN OFF ONE OF THE 3 TANKS."
+    Processing line 111!
+    (LEX)TK_Integer=1210 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"  (TYPE IN 1, 2, OR 3 )..."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="  (TYPE IN 1, 2, OR 3 )..."
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 112!
+    (LEX)TK_Integer=1220 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=R
+    (normal)basiclval.stype='R'
+    Processing line 113!
+    (LEX)TK_Integer=1230 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=W
+    (normal)basiclval.stype='W'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=RND
+    (normal)basiclval.stype='RND'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 114!
+    (LEX)TK_Integer=1240 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=W
+    (normal)basiclval.stype='W'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=INT
+    (normal)basiclval.stype='INT'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=W
+    (normal)basiclval.stype='W'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    (LEX)TK_Integer=3 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 115!
+    (LEX)TK_Integer=1250 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=W
+    (normal)basiclval.stype='W'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=R
+    (normal)basiclval.stype='R'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1300 YYSTATE=3
+    Processing line 116!
+    (LEX)TK_Integer=1260 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '" SORRY "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=" SORRY "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_SName(PrintStmt)=T$
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+        printfield = 3
+        yytext     = '", BUT THE CORRECT FUEL TANK WAS NUMBER "'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)=", BUT THE CORRECT FUEL TANK WAS NUMBER "
+    (LEX)TK_NAME(PrintStmt)='W'
+    (LEX)Change to NOTYPE=';'
+    (LEX)TK_Name(PrintStmt)=W
+        printfield = 6
+        yytext     = '" , AND"'
+        LastToken  = '293'
+    (LEX)NOTYPE<PrintStmt:qs>=';'
+        printfield = 7
+        yytext     = '" , AND"'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)=" , AND"
+    Processing line 117!
+    (LEX)TK_Integer=1270 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"  YOU HAVE JUST BECOME INTERGALACTIC DUST!!"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="  YOU HAVE JUST BECOME INTERGALACTIC DUST!!"
+    Processing line 118!
+    (LEX)TK_Integer=1280 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '" START OVER AGAIN...."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=" START OVER AGAIN...."
+    Processing line 119!
+    (LEX)TK_Integer=1290 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1600 YYSTATE=3
+    Processing line 120!
+    (LEX)TK_Integer=1300 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '" YOU HAVE PICKED THE CORRECT FUEL TANK, AND HAVE STOPPED"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=" YOU HAVE PICKED THE CORRECT FUEL TANK, AND HAVE STOPPED"
+    Processing line 121!
+    (LEX)TK_Integer=1310 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"  THE FIRE SUCCESSFULLY!! YOU MAY NOW CONTINUE SAFELY..."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="  THE FIRE SUCCESSFULLY!! YOU MAY NOW CONTINUE SAFELY..."
+    Processing line 122!
+    (LEX)TK_Integer=1320 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=710 YYSTATE=3
+    Processing line 123!
+    (LEX)TK_Integer=1330 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1560 YYSTATE=3
+    Processing line 124!
+    (LEX)TK_Integer=1340 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 125!
+    (LEX)TK_Integer=1350 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"  A METEOR SHOWER IS JUST DEAD AHEAD!!!  IF YOU WANT TO"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="  A METEOR SHOWER IS JUST DEAD AHEAD!!!  IF YOU WANT TO"
+    Processing line 126!
+    (LEX)TK_Integer=1360 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"     SAVE YOURSELF, YOU HAD BETTER VEER TO THE SIDE AND"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="     SAVE YOURSELF, YOU HAD BETTER VEER TO THE SIDE AND"
+    Processing line 127!
+    (LEX)TK_Integer=1370 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"     FIRE SOME OF YOUR ANTI-METEOR ROCKETS!!  FROM 1 TO 15,"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="     FIRE SOME OF YOUR ANTI-METEOR ROCKETS!!  FROM 1 TO 15,"
+    Processing line 128!
+    (LEX)TK_Integer=1380 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"     HOW MANY WILL YOU SHOOT ?"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="     HOW MANY WILL YOU SHOOT ?"
+    Processing line 129!
+    (LEX)TK_Integer=1390 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Processing line 130!
+    (LEX)TK_Integer=1400 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=9 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1440 YYSTATE=3
+    Processing line 131!
+    (LEX)TK_Integer=1410 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=8 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1440 YYSTATE=3
+    Processing line 132!
+    (LEX)TK_Integer=1420 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    (LEX)TK_Integer=8 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1460 YYSTATE=3
+    Processing line 133!
+    (LEX)TK_Integer=1430 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x62'>'
+    (LEX)TK_Integer=8 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1510 YYSTATE=3
+    Processing line 134!
+    (LEX)TK_Integer=1440 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"  YOU MADE IT!!!   NOW YOU MAY CONTINUE..."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="  YOU MADE IT!!!   NOW YOU MAY CONTINUE..."
+    Processing line 135!
+    (LEX)TK_Integer=1450 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=710 YYSTATE=3
+    Processing line 136!
+    (LEX)TK_Integer=1460 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 137!
+    (LEX)TK_Integer=1470 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '" SORRY, "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=" SORRY, "
+    (LEX)TK_NAME(PrintStmt)='T$'
+    (LEX)Change to NOTYPE=';'
+    (LEX)TK_SName(PrintStmt)=T$
+        printfield = 4
+        yytext     = '", BUT THAT WASN\T ENOUGH!!"'
+        LastToken  = '295'
+    (LEX)NOTYPE<PrintStmt:qs>=';'
+        printfield = 5
+        yytext     = '", BUT THAT WASN\T ENOUGH!!"'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)=", BUT THAT WASN\T ENOUGH!!"
+    Processing line 138!
+    (LEX)TK_Integer=1480 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"   YOU HAVE JUST BEEN DISINTEGRATED BY THE METEORS!!"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="   YOU HAVE JUST BEEN DISINTEGRATED BY THE METEORS!!"
+    Processing line 139!
+    (LEX)TK_Integer=1490 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"   START OVER AGAIN..."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="   START OVER AGAIN..."
+    Processing line 140!
+    (LEX)TK_Integer=1500 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1560 YYSTATE=3
+    Processing line 141!
+    (LEX)TK_Integer=1510 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 142!
+    (LEX)TK_Integer=1520 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"  SORRY,"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="  SORRY,"
+    (LEX)TK_NAME(PrintStmt)='T$'
+    (LEX)Change to NOTYPE=';'
+    (LEX)TK_SName(PrintStmt)=T$
+        printfield = 4
+        yytext     = '", BUT YOU USED TOO MANY ROCKETS,"'
+        LastToken  = '295'
+    (LEX)NOTYPE<PrintStmt:qs>=';'
+        printfield = 5
+        yytext     = '", BUT YOU USED TOO MANY ROCKETS,"'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)=", BUT YOU USED TOO MANY ROCKETS,"
+    Processing line 143!
+    (LEX)TK_Integer=1530 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    AND YOU ARE NOW HEADING SOMEWHERE TOWARDS MARS,"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    AND YOU ARE NOW HEADING SOMEWHERE TOWARDS MARS,"
+    Processing line 144!
+    (LEX)TK_Integer=1540 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    BECAUSE THE FIRING OF ALL THOSE ROCKETS THREW YOU"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    BECAUSE THE FIRING OF ALL THOSE ROCKETS THREW YOU"
+    Processing line 145!
+    (LEX)TK_Integer=1550 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    COMPLETELY OFF COURSE!! START OVER AGAIN..."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    COMPLETELY OFF COURSE!! START OVER AGAIN..."
+    Processing line 146!
+    (LEX)TK_Integer=1560 YYSTATE=0
+    (LEX)TK_Stop='STOP'
+    Processing line 147!
+    (LEX)TK_Integer=1570 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '" YOU HAVE LANDED, BUT AT A VELOCITY OF "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=" YOU HAVE LANDED, BUT AT A VELOCITY OF "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=V
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+        printfield = 3
+        yytext     = '" FEET PER SECOND,"'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)=" FEET PER SECOND,"
+    Processing line 148!
+    (LEX)TK_Integer=1580 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"  WHICH HAS DAMAGED THE INSTRUMENTS IN YOUR SHIP ENOUGH TO"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="  WHICH HAS DAMAGED THE INSTRUMENTS IN YOUR SHIP ENOUGH TO"
+    Processing line 149!
+    (LEX)TK_Integer=1590 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"  PREVENT YOUR RETURN TO THE EARTH!! BETTER LUCK NEXT TIME!"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="  PREVENT YOUR RETURN TO THE EARTH!! BETTER LUCK NEXT TIME!"
+    Processing line 150!
+    (LEX)TK_Integer=1600 YYSTATE=0
+    (LEX)TK_End='END'
+    Processing line 151!
+    Sorting Symbols ...
+    Grab Labels ...
+    Update Vars ...
+    Mark All Routines ...
+    Display Initial Code ...
+    TStatement::_RtnCount-1=0
+    Fixup targets that are on comments.
+    FixupTargets() stmt:' 100 PRINT "BASIC LIBRARY--'LUNAR'--18-OCT-73"'
+    FixupTargets() stmt:' 110 PRINT'
+    FixupTargets() stmt:' 120 PRINT" THIS PROGRAM IS DESIGNED TO SIMULATE THE LANDING OF"'
+    FixupTargets() stmt:' 130 PRINT"   A LUNAR EXCURSION MODULE.  IF YOU KNOW HOW IT WORKS,"'
+    FixupTargets() stmt:' 140 PRINT"    TYPE IN '1' ,IF NOT, TYPE IN '0'."'
+    FixupTargets() stmt:' 150 INPUT A'
+    FixupTargets() stmt:' 160 IF A=1 THEN320'
+    FixupTargets() stmt:' 170 IF A=0 THEN 180'
+    FixupTargets() stmt:' 180 PRINT'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:' 190 PRINT"  YOU ARE TRAVELING IN THE LUNAR ATMOSPHERE AT AN "'
+    FixupTargets() stmt:' 200 PRINT"   ALTITUDE OF 40,000 FEET, AND DESCENDING AT A RATE OF"'
+    FixupTargets() stmt:' 210 PRINT"   8,000 FEET PER SECOND.  YOU HAVE ACCESS TO 20 "'
+    FixupTargets() stmt:' 220 PRINT"    RETROROCKETS -- 1 TO 10 AND -1 TO -10."'
+    FixupTargets() stmt:' 230 PRINT"    A POSITIVE NUMBER SLOWS DOWN YOUR DESCENT, AND A "'
+    FixupTargets() stmt:' 240 PRINT"    NEGATIVE NUMBER INCREASES YOUR DESCENT. THE"'
+    FixupTargets() stmt:' 250 PRINT"    NEGATIVE FIRINGS ARE PARTICULARLY USEFUL WHEN"'
+    FixupTargets() stmt:' 260 PRINT"    YOU HAVE SLOWED DOWN  TOO MUCH, AND YOU"'
+    FixupTargets() stmt:' 270 PRINT"    FIND YOUR HEIGHT INCREASING, INSTEAD OF DECREASING."'
+    FixupTargets() stmt:' 280 PRINT"    YOU WILL LAND SAFELY IF YOUR FINAL VELOCITY IS"'
+    FixupTargets() stmt:' 290 PRINT"     LESS THAN 20 FEET PER SECOND."'
+    FixupTargets() stmt:' 300 PRINT"   AN ASTERISK (*) WILL GIVE YOUR RELATIVE POSITION"'
+    FixupTargets() stmt:' 310 PRINT"    TO THE MOON AFTER EACH RETRO FIRE. YOU MAY NOW BEGIN..."'
+    FixupTargets() stmt:' 320 PRINT'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:' 330 PRINT"PLEASE TYPE IN YOUR FIRST NAME..."'
+    FixupTargets() stmt:' 340 INPUT T$'
+    FixupTargets() stmt:' 350 PRINT'
+    FixupTargets() stmt:' 360 :             ##.##             #####             #####          ####'
+    FixupTargets() stmt:' 370 PRINT"              TIME            HEIGHT            VELOCITY        FUEL"'
+    FixupTargets() stmt:' 380 PRINT"              ----            ------            --------        ----"'
+    FixupTargets() stmt:' 390 PRINT'
+    FixupTargets() stmt:' 400 PRINT"MOON" TAB(45);"*"'
+    FixupTargets() stmt:' 410 H=40000'
+    FixupTargets() stmt:' 420 V=8000'
+    FixupTargets() stmt:' 430 V1=8000'
+    FixupTargets() stmt:' 440 J=RND(-1)'
+    FixupTargets() stmt:' 450 LET J=INT(J*15)'
+    FixupTargets() stmt:' 460 F=9000'
+    FixupTargets() stmt:' 480 N=0.00'
+    FixupTargets() stmt:' 490 B=40'
+    FixupTargets() stmt:' 500 GO TO 610'
+    FixupTargets() stmt:' 510 B=0'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:' 520 FOR X=1 TO 100'
+    FixupTargets() stmt:' 530 V=V-(K^3*1.5+K*15)+10-H/10000'
+    FixupTargets() stmt:' 540 F=F-ABS(K*93)'
+    FixupTargets() stmt:' 550 IF F<0 THEN 770'
+    FixupTargets() stmt:' 560 H=H-(V+V1)/2'
+    FixupTargets() stmt:' 570 B=H/1000+4'
+    FixupTargets() stmt:' 580 IF H<0 THEN 800'
+    FixupTargets() stmt:' 590 V1=V'
+    FixupTargets() stmt:' 600 PRINT"MOON"; TAB(B);"*"'
+    FixupTargets() stmt:' 610 PRINT USING 360,N,H,V,F'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:' 620 PRINT"      FIRE";'
+    FixupTargets() stmt:' 630 GO TO 650'
+    FixupTargets() stmt:' 640 PRINT"  RETROROCKET FIRE MUST BE BETWEEN 10 AND -10!"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:' 650 INPUT K'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:' 660 IF K=999 THEN 880'
+    FixupTargets() stmt:' 670 IF ABS(K)>10 THEN 640'
+    FixupTargets() stmt:' 680 PRINT'
+    FixupTargets() stmt:' 690 N=N+1.00'
+    FixupTargets() stmt:' 700 IF X=2 THEN 730'
+    FixupTargets() stmt:' 710 NEXT X'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:' 720 GO TO 510'
+    FixupTargets() stmt:' 730 IF J=2 THEN 1140'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:' 740 IF J=13 THEN 1180'
+    FixupTargets() stmt:' 750 IF J=4 THEN 1340'
+    FixupTargets() stmt:' 760 GO TO 510'
+    FixupTargets() stmt:' 770 PRINT'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:' 780 PRINT"  YOU HAVE JUST RUN OUT OF FUEL ";H;"FEET ABOVE THE SURFACE!!"'
+    FixupTargets() stmt:' 790 GO TO 1560'
+    FixupTargets() stmt:' 800 IF V<0 THEN 910'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:' 810 IF V<20 THEN 950'
+    FixupTargets() stmt:' 820 IFV<40 THEN 1570'
+    FixupTargets() stmt:' 830 PRINT'
+    FixupTargets() stmt:' 840 PRINT" YOU HAVE JUST CRASHED!! AT ";V;"FPS., GOOD-BYE, ";T$;"!!"'
+    FixupTargets() stmt:' 850 GO TO 1560'
+    FixupTargets() stmt:' 860 IF H<5 THEN 950'
+    FixupTargets() stmt:' 870 GO TO 510'
+    FixupTargets() stmt:' 880 PRINT"  YOU NOT ONLY LANDED, YOU WENT COMPLETELY THROUGH"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:' 890 PRINT"  THE LUNAR SURFACE !!!!"'
+    FixupTargets() stmt:' 900 GO TO 980'
+    FixupTargets() stmt:' 910 PRINT'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:' 920 PRINT" CONGRATULATIONS !!! YOU HAVE JUST LANDED SAFELY AT 0.001 FEET"'
+    FixupTargets() stmt:' 930 PRINT"  PER SECOND!!"'
+    FixupTargets() stmt:' 940 GO TO 980'
+    FixupTargets() stmt:' 950 PRINT'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:' 960 PRINT" CONGRATULATIONS !!! YOU HAVE JUST LANDED SAFELY"'
+    FixupTargets() stmt:' 970 PRINT"  AT ";V;" FEET PER SECOND!!"'
+    FixupTargets() stmt:' 980 PRINT"  HERE IS YOUR PILOT\S LICENSE..."'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:' 990 PRINT'
+    FixupTargets() stmt:'1000 PRINT'
+    FixupTargets() stmt:'1010 PRINT"**************************************************"'
+    FixupTargets() stmt:'1020 PRINT"*                                                *"'
+    FixupTargets() stmt:'1030 PRINT"*       ";T$;"                                    * "'
+    FixupTargets() stmt:'1040 IF K=999 THEN 1070'
+    FixupTargets() stmt:'1050 PRINT"*                  HAS SUCCESSFULLY LANDED       *"'
+    FixupTargets() stmt:'1060 GO TO 1080'
+    FixupTargets() stmt:'1070 PRINT"*           HAS SUCCESSFULLY LANDED(BY CHEATING) *"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1080 PRINT"*     A SIMULATED MODULE ON THE MOON, AND IS     *"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1090 PRINT"*     A CERTIFIED MOON BUGGY DRIVER.             *"'
+    FixupTargets() stmt:'1100 PRINT"*                                                *"'
+    FixupTargets() stmt:'1110 PRINT"*                              DATALINE          *"'
+    FixupTargets() stmt:'1120 PRINT"**************************************************"'
+    FixupTargets() stmt:'1130 GO TO 1560'
+    FixupTargets() stmt:'1140 PRINT" SORRY,"T$", BUT A HOSTILE STARSHIP FROM SATURN HAS JUST"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1150 PRINT"   INVADED DATALINE'S COMPUTER AND DESTROYED YOUR"'
+    FixupTargets() stmt:'1160 PRINT"   LUNAR VEHICLE !!  START OVER AGAIN..."'
+    FixupTargets() stmt:'1170 GO TO 1560'
+    FixupTargets() stmt:'1180 PRINT'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1190 PRINT" ONE OF YOUR THREE FUEL TANKS JUST BURST INTO FLAME!!"'
+    FixupTargets() stmt:'1200 PRINT"  TO AVOID AN EXPLOSION, TURN OFF ONE OF THE 3 TANKS."'
+    FixupTargets() stmt:'1210 PRINT"  (TYPE IN 1, 2, OR 3 )...";'
+    FixupTargets() stmt:'1220 INPUT R'
+    FixupTargets() stmt:'1230 LET W=RND(-1)'
+    FixupTargets() stmt:'1240 LET W=INT(W*3)+1'
+    FixupTargets() stmt:'1250 IF W=R THEN 1300'
+    FixupTargets() stmt:'1260 PRINT" SORRY ";T$;", BUT THE CORRECT FUEL TANK WAS NUMBER "W" , AND"'
+    FixupTargets() stmt:'1270 PRINT"  YOU HAVE JUST BECOME INTERGALACTIC DUST!!"'
+    FixupTargets() stmt:'1280 PRINT" START OVER AGAIN...."'
+    FixupTargets() stmt:'1290 GO TO 1600'
+    FixupTargets() stmt:'1300 PRINT" YOU HAVE PICKED THE CORRECT FUEL TANK, AND HAVE STOPPED"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1310 PRINT"  THE FIRE SUCCESSFULLY!! YOU MAY NOW CONTINUE SAFELY..."'
+    FixupTargets() stmt:'1320 GO TO 710'
+    FixupTargets() stmt:'1330 GO TO 1560'
+    FixupTargets() stmt:'1340 PRINT'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1350 PRINT"  A METEOR SHOWER IS JUST DEAD AHEAD!!!  IF YOU WANT TO"'
+    FixupTargets() stmt:'1360 PRINT"     SAVE YOURSELF, YOU HAD BETTER VEER TO THE SIDE AND"'
+    FixupTargets() stmt:'1370 PRINT"     FIRE SOME OF YOUR ANTI-METEOR ROCKETS!!  FROM 1 TO 15,"'
+    FixupTargets() stmt:'1380 PRINT"     HOW MANY WILL YOU SHOOT ?"'
+    FixupTargets() stmt:'1390 INPUT Z'
+    FixupTargets() stmt:'1400 IF Z=9 THEN 1440'
+    FixupTargets() stmt:'1410 IF Z=8 THEN 1440'
+    FixupTargets() stmt:'1420 IF Z<8 THEN 1460'
+    FixupTargets() stmt:'1430 IF Z>8 THEN 1510'
+    FixupTargets() stmt:'1440 PRINT"  YOU MADE IT!!!   NOW YOU MAY CONTINUE..."'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1450 GO TO 710'
+    FixupTargets() stmt:'1460 PRINT'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1470 PRINT" SORRY, "T$", BUT THAT WASN\T ENOUGH!!"'
+    FixupTargets() stmt:'1480 PRINT"   YOU HAVE JUST BEEN DISINTEGRATED BY THE METEORS!!"'
+    FixupTargets() stmt:'1490 PRINT"   START OVER AGAIN..."'
+    FixupTargets() stmt:'1500 GO TO 1560'
+    FixupTargets() stmt:'1510 PRINT'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1520 PRINT"  SORRY,"T$", BUT YOU USED TOO MANY ROCKETS,"'
+    FixupTargets() stmt:'1530 PRINT"    AND YOU ARE NOW HEADING SOMEWHERE TOWARDS MARS,"'
+    FixupTargets() stmt:'1540 PRINT"    BECAUSE THE FIRING OF ALL THOSE ROCKETS THREW YOU"'
+    FixupTargets() stmt:'1550 PRINT"    COMPLETELY OFF COURSE!! START OVER AGAIN..."'
+    FixupTargets() stmt:'1560 STOP'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1570 PRINT" YOU HAVE LANDED, BUT AT A VELOCITY OF ";V;" FEET PER SECOND,"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1580 PRINT"  WHICH HAS DAMAGED THE INSTRUMENTS IN YOUR SHIP ENOUGH TO"'
+    FixupTargets() stmt:'1590 PRINT"  PREVENT YOUR RETURN TO THE EARTH!! BETTER LUCK NEXT TIME!"'
+    FixupTargets() stmt:'1600 END'
+      Target is GOSUB or GOTO
+    Finished FixupTargets
+    Split Overlapping Subroutines ...
+    Straighten Overlapping Subroutines ...
+    Renumber Source ...
+    Display Empty Code Ranges ...
+    Display Symbol Table ...
+    Display of final 'clean' BASIC listing ...
+    TStatement::_RtnCount-1=0
+    Finished!!!
+<--- int main(int, char**) /media/Infinity/dev/BasicGames/b2c/b2c.cpp[2210]

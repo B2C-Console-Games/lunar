@@ -1,0 +1,81 @@
+#### DBGLogOpen Called /media/Infinity/dev/BasicGames/b2c/b2c.cpp[2103]
+Loading var translations
+  Line='# Functions'
+  orig_name='#'
+  Line=''
+  Line='# Intrinsics (Change mangled name back to original name) '
+  orig_name='#'
+  Line='SPACE_str     | SPACE'
+  orig_name='SPACE_str'
+  new_name='SPACE'
+  Line='MID_str       | MID'
+  orig_name='MID_str'
+  new_name='MID'
+  Line='CHR_str       | CHR'
+  orig_name='CHR_str'
+  new_name='CHR'
+  Line='RIGHT_str     | RIGHT'
+  orig_name='RIGHT_str'
+  new_name='RIGHT'
+  Line='LEFT_str      | LEFT'
+  orig_name='LEFT_str'
+  new_name='LEFT'
+  Line=''
+  Line='# Variables'
+  orig_name='#'
+  Line=''
+  Line='# Line numbers'
+  orig_name='#'
+Finished loading var translations
+Translations:
+  'CHR_str' --> 'CHR'
+  'LEFT_str' --> 'LEFT'
+  'MID_str' --> 'MID'
+  'RIGHT_str' --> 'RIGHT'
+  'SPACE_str' --> 'SPACE'
+End Translations.
+(PRINTSTMT)basiclval.stype='B'
+(PRINTSTMT)basiclval.stype='N'
+(PRINTSTMT)basiclval.stype='H'
+(PRINTSTMT)basiclval.stype='V'
+(PRINTSTMT)basiclval.stype='F'
+(PRINTSTMT)basiclval.stype='H'
+(PRINTSTMT)basiclval.stype='V'
+(PRINTSTMT)basiclval.stype='T$'
+(PRINTSTMT)basiclval.stype='V'
+(PRINTSTMT)basiclval.stype='T$'
+(PRINTSTMT)basiclval.stype='T$'
+(PRINTSTMT)basiclval.stype='T$'
+(PRINTSTMT)basiclval.stype='W'
+(PRINTSTMT)basiclval.stype='T$'
+(PRINTSTMT)basiclval.stype='T$'
+(PRINTSTMT)basiclval.stype='V'
+FindField(Line=' 360 :             ##.##             #####             #####          ####',field=1)
+    1) pos=18, ps='##.##             #####             #####          ####'
+    2) pos=5, eps='             #####             #####          ####'
+    curfld=1
+    ps='##.##             #####             #####          ####'
+    fldsz=5
+    buf='##.##'
+    TY_Float
+FindField(Line=' 360 :             ##.##             #####             #####          ####',field=2)
+    1) pos=18, ps='##.##             #####             #####          ####'
+    2) pos=5, eps='             #####             #####          ####'
+    curfld=2
+    ps='             #####             #####          ####'
+    fldsz=0
+    buf=''
+FindField(Line=' 360 :             ##.##             #####             #####          ####',field=3)
+    1) pos=18, ps='##.##             #####             #####          ####'
+    2) pos=5, eps='             #####             #####          ####'
+    curfld=3
+    ps='             #####          ####'
+    fldsz=0
+    buf=''
+FindField(Line=' 360 :             ##.##             #####             #####          ####',field=4)
+    1) pos=18, ps='##.##             #####             #####          ####'
+    2) pos=5, eps='             #####             #####          ####'
+    curfld=4
+    ps='          ####'
+    fldsz=0
+    buf=''
